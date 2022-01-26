@@ -3,4 +3,4 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Usermax77/DESTROYER)
 
 
-# Shadow Spam bot on 🔥
+# Aman Spam bot on 🔥
