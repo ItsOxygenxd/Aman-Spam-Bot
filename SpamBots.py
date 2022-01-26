@@ -329,7 +329,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("ℂℍ𝔸𝕃𝕆 𝔾𝔸ℕ𝔻 𝕄𝔸ℝℕ𝔼 𝕁𝕆𝕀ℕ ℍ𝕆 𝔾𝔸𝕐𝔸")
+                await event.edit("AA RAHA HU BSDK")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"🤤𝐆𝐀𝐍𝐃!\n`{ms}` ms\n⚔️𝗦𝗛4𝗗𝗢𝗪 𝗦𝗣𝗔𝗠𝗕𝗢𝗧⚔️")
+        await event.edit(f"🤤𝐆𝐀𝐍𝐃!\n`{ms}` ms\n⚔️NOBITA ON FIRE⚔️")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -797,7 +797,7 @@ async def restart(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-        text = "[ 𝐒𝐇4𝐃𝐎𝐖 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @SH4DOW_SPAMBOTSUPPORT"
+        text = "[ NOBITA 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @SH4DOW_SPAMBOTSUPPORT"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
